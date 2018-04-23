@@ -16,10 +16,10 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.string "location"
     t.integer "costume_inventory"
-    t.integer "employees"
+    t.integer "num_of_employees"
     t.boolean "still_in_business"
-    t.string "opening_time"
-    t.string "closing_time"
+    t.text "opening_time"
+    t.text "closing_time"
   end
 
   create_table "costumes", force: :cascade do |t|
