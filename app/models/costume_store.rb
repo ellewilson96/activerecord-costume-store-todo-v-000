@@ -2,11 +2,14 @@
 class CostumeStore < ActiveRecord::Base
 
   def change
-    create_table :costume_store do |t|
+    create_table :costume_stores do |t|
      t.string :name
-     t.integer :price
-     t.integer :size
-     t.string :image_url
+     t.string :locatio
+     t.integer :costume_inventory
+     t.integer :employees
+     t.string :open
+     t.datetime :opening
+     t.datetime :closing
   end
 
 end
