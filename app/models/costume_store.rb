@@ -11,5 +11,5 @@ class CostumeStore < ActiveRecord::Base
      t.datetime :opening
      t.datetime :closing
   end
-
+end
 end
