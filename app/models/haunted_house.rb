@@ -9,5 +9,5 @@ class HauntedHouse < ActiveRecord::Base
      t.integer :size
      t.string :image_url
   end
-
+end
 end
